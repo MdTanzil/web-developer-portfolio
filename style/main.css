@@ -135,3 +135,47 @@ nav a {
   font-weight: 400;
   line-height: 28px;
 }
+.title-sum{
+    color: #474747;
+font-size: 30px;
+font-weight: 700;
+}
+.sum-deg{
+    color: #474747;
+font-size: 25px;
+font-weight: 700;
+}
+.sum-university{
+    color:  #757575;
+font-size: 20px;
+font-weight: 600;
+}
+.sum-desc{
+    color:  #757575;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+margin-top: 20px;
+}
+.summary-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sum-item hr{
+    margin: 30px;
+}
+.summary{
+    padding: 130px;
+  border-radius: 10px;
+  background: #fff8f3;
+}
+.download-cv{
+    border-radius: 5px;
+ background: #FD6E0A;
+text-align: center;
+margin: auto;
+margin-top: 50px;
+display: flex;
+
+}
