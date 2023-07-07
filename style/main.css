@@ -1,0 +1,74 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+/* common shared styles*/
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+header{
+    background-color: #FFF8F3;
+    background-image: url("../images/header_bg.png"),url("../images/developer.png");
+    background-repeat: no-repeat;
+    background-position: bottom right,top left;
+}
+.header > nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header > nav > ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header > nav > ul > li {
+  list-style: none;
+  margin-right: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #474747;
+}
+.nav-title {
+  color: #181818;
+  font-size: 40px;
+  font-weight: 800;
+}
+#r {
+  color: #fd6e0a;
+}
+.btn-primary{
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    background-color: #FD6E0A;
+    font-size: 20px;
+font-weight: 700;
+padding: 18px 35px;
+
+}
+.banner{
+    display: flex;
+    padding: 30px 30px 0px 150px;
+    justify-content: space-around;
+    align-items: center;
+}
+.ban-img{
+    width: 584px;
+}
+.ban-h3{
+    color: #474747;
+font-size: 45px;
+font-weight: 600;
+}
+.ban-name{
+    color: #181818;
+
+font-size: 85px;
+font-weight: 700;
+margin-top: 5px;
+    margin-bottom: 20px;
+}
